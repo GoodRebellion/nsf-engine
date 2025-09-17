@@ -1,0 +1,1438 @@
+// The contents of this file contain the questions and recommendations for the ENGINE GUARDIAN tool.
+(function() {
+window.recommendations = {
+  "links": [
+    {
+      "name": "Chartered Institute of Procurement and Supply (CIPS) Guidance on Managing Supplier Relationships",
+      "hyperlink": "https://www.cips.org/intelligence-hub/supplier-relationship-management/managing-supplier-relationships",
+    },
+    {
+      "name": "New York Battery and Energy Storage Technology (NY-BEST) Consortium",
+      "hyperlink": "https://ny-best.org/",
+    },
+    {
+      "name": "Battery Council International (BCI)",
+      "hyperlink": "https://batterycouncil.org/",
+    },
+    {
+      "name": "NAATBatt",
+      "hyperlink": "https://directory.naatbatt.org/",
+    },
+    {
+      "name": "NY-BEST Supply Chain Database",
+      "hyperlink": "https://ny-best.org/page/supplychaindatabase",
+    },
+    {
+      "name": "Li-ion Battery Supply Chain Database",
+      "hyperlink": "https://www2.nrel.gov/transportation/li-ion-battery-supply-chain-database",
+    },
+    {
+      "name": "NIST MEP Supplier Scouting Service",
+      "hyperlink": "https://www.nist.gov/mep/supply-chain/supplier-scouting",
+    },
+    {
+      "name": "The Council of Supply Chain Management Professionals (CSCMP)",
+      "hyperlink": "https://cscmp.org/CSCMP/CSCMP/Develop/CSCMP_Research.aspx?hkey=71f66c98-ac10-47cb-b976-fd548f92438f",
+    },
+    {
+      "name": "NIST MEP Small Manufacturers Can Implement Risk Management Strategies",
+      "hyperlink": "https://www.nist.gov/feature-stories/how-small-manufacturers-can-develop-risk-management-strategies-their-supply-chains",
+    },
+    {
+      "name": "NY MEP Supply Chain Maturity Assessment",
+      "hyperlink": "https://newyorkmep.org/nys-manufacturing-supply-chain-maturity/",
+    },
+    {
+      "name": "Office of the Director of National Intelligence Framework for Assessing Risks",
+      "hyperlink": "https://www.dni.gov/files/NCSC/documents/supplychain/Framework_for_Assessing_Risks_-_FINAL_Doc.pdf",
+    },
+    {
+      "name": "CISA Vendor Supply Chain Risk Management Essentials",
+      "hyperlink": "https://www.cisa.gov/resources-tools/resources/cisa-scrm-essentials",
+    },
+    {
+      "name": "FEMA Ready Business Risk Assessment Tool",
+      "hyperlink": "https://www.ready.gov/business/planning/risk-assessment",
+    },
+    {
+      "name": "Smartsheet Free Supply Chain Risk Assessment Template",
+      "hyperlink": "https://www.smartsheet.com/content/supply-chain-risk-assessment-templates?srsltid=AfmBOophDe4seYn4Fywa8lW0vtux7cO7J5VTVKJEI74lxCYolYyna5c0",
+    },
+    {
+      "name": "National Supply Chain Integrity Best Practices",
+      "hyperlink": "https://www.dni.gov/files/NCSC/documents/supplychain/SC_Best_Practices_Final_2021.pdf",
+    },    
+    {
+      "name": "Department of Commerce US and Foreign Regulations and Standards",
+      "hyperlink": "https://www.trade.gov/comply-us-and-foreign-regulations",
+    },
+    {
+      "name": "human rights and environmental concerns such as child and forced labor in the Democratic Republic of Congo (DRC) in cobalt production",
+      "hyperlink": "https://www.dol.gov/agencies/ilab/reports/child-labor/list-of-goods/supply-chains/lithium-ion-batteries",
+    },
+    {
+      "name": "Uyghur Forced Labor Prevention Act Entity List",
+      "hyperlink": "https://www.dhs.gov/uflpa-entity-list",
+    },
+    {
+      "name": "OECD Handbook on Environmental Due Diligence in Mineral Supply Chains",
+      "hyperlink": "https://www.oecd.org/en/publications/handbook-on-environmental-due-diligence-in-mineral-supply-chains_cef843bf-en.html"
+    },
+    {
+      "name": "National Counterintelligence and Security Center (NCSC) Venture Capital and Supply Chain Risk",
+      "hyperlink": "https://www.dni.gov/files/NCSC/documents/supplychain/Final VC.pdf",
+    },
+    {
+      "name": "Foreign Entities of Concern (FEOC)",
+      "hyperlink": "https://www.energy.gov/mesc/foreign-entity-concern-interpretive-guidance",
+    },
+    {
+      "name": "EU Batteries Regulation",
+      "hyperlink": "https://www.trade.gov/market-intelligence/eu-batteries-regulation-2023",
+    },
+    {
+      "name": "OECD Due Diligence Guidance",
+      "hyperlink": "https://www.duediligenceguidance.org/",
+    },
+    {
+      "name": "Foreign Entity of Concern Guidance",
+      "hyperlink": "https://www.federalregister.gov/documents/2024/05/06/2024-08913/interpretation-of-foreign-entity-of-concern",
+    },
+    {
+      "name": "Morningstar",
+      "hyperlink": "https://www.morningstar.com/",
+    },
+    {
+      "name": "U.S. Treasury’s OFAC Sanctions List",
+      "hyperlink": "https://sanctionssearch.ofac.treas.gov/",
+    },
+    {
+      "name": "Department of Commerce Consolidated Screening List",
+      "hyperlink": "https://www.trade.gov/consolidated-screening-list",
+    },
+    {
+      "name": "BIS Entity List",
+      "hyperlink": "https://www.bis.doc.gov/index.php/policy-guidance/lists-of-parties-of-concern/entity-list",
+    },
+    {
+      "name": "NY-BEST Energy Storage Systems Safety and Best Practices Resource Library",
+      "hyperlink": "https://ny-best.org/page/library",
+    },
+    {
+      "name": "FEMA Business Response Planning Guidance",
+      "hyperlink": "https://www.ready.gov/sites/default/files/2020-04/ready_business_how-to-guide.pdf",
+    },
+    {
+      "name": "Leading Your Business During Disasters Checklist",
+      "hyperlink": "https://business.vic.gov.au/tools-and-templates/leading-your-business-during-disasters-checklist",
+    },
+    {
+      "name": "International Traffic in Arms Regulations (ITAR)",
+      "hyperlink": "https://www.sbir.gov/tutorials/itar"
+    },
+    {
+      "name": "New York Energy Storage Program",
+      "hyperlink": "https://www.nyserda.ny.gov/All-Programs/Energy-Storage-Program",
+    },
+    {
+      "name": "Empire State Development (ESD) Incentives",
+      "hyperlink": "https://esd.ny.gov/tax-based-incentives",
+    },
+    {
+      "name": "Best Practices for Lab Inventory Management",
+      "hyperlink": "https://www.elabnext.com/blog/best-practices-lab-inventory-management",
+    },
+    {
+      "name": "UCSF Presentation on IP Strategy",
+      "hyperlink": "https://innovation.ucsf.edu/sites/venture.ucsf.edu/files/UCSF%20Presentation%20on%20IP%20Deborah%20Kang.pdf",
+    },
+    {
+      "name": "The Role of IP Actions at Various TRL Levels",
+      "hyperlink": "https://ipbusinessacademy.org/the-role-of-ip-actions-at-various-trl-levels",
+    },
+    {
+      "name": "LG Supplier Code of Conduct",
+      "hyperlink": "https://www.lg.com/content/dam/lge/global/sustainability/pdf/LGE-Supplier-CoC_Eng_v5.0.pdf",
+    },
+    {
+      "name": "Chartered Institute of Procurement and Supply (CIPS) Supplier Evaluation Resources for Best Practices",
+      "hyperlink": "https://www.cips.org/intelligence-hub/managing-suppliers/supplier-evaluation",
+    },
+    {
+      "name": "SoftExpert Supplier Audit Checklist",
+      "hyperlink": "https://www.softexpert.com/en/features/supplier-audit-checklist/",
+    },
+    {
+      "name": "BMI Price Dashboard",
+      "hyperlink": "https://www.benchmarkminerals.com/price-dashboard",
+    },
+    {
+      "name": "Volta Foundation",
+      "hyperlink": "https://volta.foundation/battery-report-2024"
+    },
+    {
+      "name": "London Metal Exchange (LME) Red Flag Assessment Template",
+      "hyperlink": "https://www.lme.com/-/media/Files/About/Responsibility/Responsible-sourcing/Market-consultation/E-LME-Red-Flag-Assessment-Template--revised-with-request-for-feedback-questions.pdf",
+    },
+    {
+      "name": "Extended Minerals Reporting Template",
+      "hyperlink": "https://www.responsiblemineralsinitiative.org/reporting-templates/emrt/",
+    },
+    {
+      "name": "CISA’s Resource Guide for Developing a Resilient Supply Chain Risk Management Plan",
+      "hyperlink": "https://www.cisa.gov/sites/default/files/2023-10/Empowering%20SMBs%20-%20A%20Resource%20Guide%20For%20Developing%20A%20Resilient%20SCRM%20Plan_508.pdf"
+    },
+    {
+      "name": "MITRE System of Trust",
+      "hyperlink": "https://sot.mitre.org/framework/body_of_knowledge.html"
+    },    
+    {
+      "name": "World Intellectual Property Organization (WIPO)",
+      "hyperlink": "https://www.wipo.int/edocs/pubdocs/en/wipo_pub_1063.pdf"
+    }
+  ],
+
+  "TRL 3-5": [
+    {
+      "title": "Enhance Communication with Suppliers",
+
+      "justification": "Developing strong relationships with key suppliers helps build trust and collaboration, leading to better service, clearer communication, and shared benefits for both parties. It also reduces the risk of strained supplier relationships and ensures problems are identified and resolved quickly, helping to avoid supply chain disruptions.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Explore resources available through your university or organization that offer templates or guidance on building stronger supplier relationships. In lieu of university support explore available supplier relationships guidance from professional organizations like Chartered Institute of Procurement and Supply (CIPS) Guidance on Managing Supplier Relationships.</li>",
+          "<li>Establish regular communications with your suppliers.</li>",
+          "<ul class='checklist'>",
+          "<li>If this represents a significant operational shift, consider starting with key suppliers or ones with known issues.</li>",
+          "</ul>",
+          "<li>Establish a clear plan for interacting with suppliers and implement strategies to improve working relationships.</li>",
+          "<ul class='checklist'>",
+          "<li>Identify industry events and organizations, like New York Battery and Energy Storage Technology (NY-BEST) Consortium, Battery Council International (BCI), and NAATBatt, that support supplier and stakeholder connections.</li>",
+          "<li>Make sure roles and responsibilities are clearly communicated in the plan (i.e., role of product manager as a liaison between suppliers and internal teams).</li>",
+          "<li>Discuss and document expectations and Key Performance Indicators (KPIs) aligned with the supplier’s contract on important items like delivery times and quality.</li>",
+          "<li>Be mindful of cultural differences with global suppliers such as differing time zones, holidays, and business days.</li>",
+          "</ul>",
+          "<li>Monitor communications with suppliers and potential suppliers to identify and address any risks or issues that arise, this includes addressing supplier concerns.</li>",
+          "<ul class='checklist'>",
+          "<li>If looking for new suppliers consider battery specific supplier databases like NY-BEST Supply Chain Database, Li-ion Battery Supply Chain Database, or more generally the NIST MEP Supplier Scouting Service.</li>",
+          "</ul>",
+          "</ul>",
+        ]
+      },
+    },
+
+    {
+      "title": "Increase Supply Chain Visibility",
+
+      "justification": "Insight and tracking of supply chain materials enables analysis of trends from suppliers and reduces the risk of supply chain disruptions going unnoticed until they impact operations.",
+
+      "actions": {
+        "description": "Use basic digital tools or spreadsheets to track the flow of materials and components.",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Create a prioritized list of key materials and components critical to product development, based on their impact on production and timeline.</li>",
+          "<ul class='checklist'>",
+          "<li>Document instances where specific suppliers are necessary for quality/impurity/morphology constraints.</li>",
+          "</ul>",
+          "<li>Explore resources available through your university or organization that can provide templates or guidance on supply chain visibility, such as The Council of Supply Chain Management Professionals (CSCMP) or other professional supply chain organizations provide resources, experts, and training on the benefits of supply chain visibility for improving efficiency and reducing risks.</li>",
+          "<li>Choose a tool such as Excel that can be easily shared within your team for collaboration.</li>",
+          "<li>Create a tracking template with items like supplier name, quantity ordered, date ordered/expected delivery/actual delivery, delays/issues, etc.</li>",
+          "<li>Establish roles and responsibilities for regularly updating and tracking using this new tool.</li>",
+          "<li>Regularly review and monitor the tool to identify trends, common issues across suppliers, and improve efficiency and accuracy.</li>",
+          "<ul class='checklist'>",
+          "<li>As the company matures, consider using more advanced supply chain tracking software to automate data collection.</li>",
+          "</ul>",
+          "<li>Ensure the process is clearly documented and employees are regularly trained in their roles and responsibilities.</li>",
+          "</ul>",
+        ]
+      },
+    },
+
+    {
+      "title": "Basic Risk Management Strategies",
+
+      "justification": "Creating basic risk management processes within your organization will enable proactive strategies to prevent or reduce the risk of being unprepared for supply chain disruptions, leading to potential operational and financial impacts.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Explore resources that may be available through your university or larger organization that can provide templates or guidance on risk management or supply chain risk management. Some publicly available templates and guidance include:</li>",
+          "<ul class='checklist'>",
+          "<li>NIST MEP Small Manufacturers Can Implement Risk Management Strategies</li>",
+          "<li>NY MEP Supply Chain Maturity Assessment</li>",
+          "<li>Office of the Director of National Intelligence Framework for Assessing Risks</li>",
+          "<li>CISA Vendor Supply Chain Risk Management Essentials</li>",
+          "</ul>",
+          "<li>Develop informal risk management practices to identify key risks and create mitigation strategies.</li>",
+          "<li>Create or identify a team to manage risk management activities.</li>",
+          "<li>Develop a process and tool to track and prioritize risks. To start, try to tailor online tools like FEMA Ready Business Risk Assessment Tool or Smartsheet Free Supply Chain Risk Assessment Template.</li>",
+          "<li>Ensure you promote a culture where risks can be discussed.</li>",
+          "<li>Identify specific strategies to mitigate large disruption risks (e.g., back-up supplier strategy or creating a safety stock of critical materials).</li>",
+          "<li>Mature risk management practices over time creating formal risk management plans, contingency measures, and training for staff.</li>",
+          "<ul class='checklist'>",
+          "<li>National Supply Chain Integrity Best Practices</li>",
+          "</ul>",
+          "</ul>",
+        ]
+      },
+
+      "references/examples": {
+        "CATL Risk Management": {
+          "link": "https://www.catl.com/en/uploads/1/file/public/202408/20240829155351_79rj8yunj3.pdf",
+          "description": "",
+        },
+        "Panasonic Risk Management": {
+          "link": "https://holdings.panasonic/global/corporate/sustainability/pdf/sdb2024e-riskmanagement.pdf",
+          "description": "",
+        },
+      },
+    },
+
+    {
+      "title": "Increase Awareness of Geopolitical Risks",
+
+      "justification": "Comprehensive, consistent monitoring of geopolitical risks related to tariffs, conflicts, and intellectual property can bolster an organization’s strategic positioning to better respond to risk and maintain operational, economic, and reputational integrity. While organizations and startups in TRL 3-5 are not operating at significant volume, developing awareness around geopolitical risks will matter for future supplier selection and production. Potential future customers may have requirements or strong preferences for US-based supply chains or evidence of fair-trade practices, that may need to be demonstrated before becoming a customer.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Identify potential geopolitical risks for your supply chain, this could include:</li>",
+          "<ul class='checklist'>",
+          "<li>Evaluate the geographical distribution of suppliers to understand their risk of environmental, geopolitical, or logistical risk. Note any geographical clusters of suppliers.</li>",
+          "<li>Review tariffs and trade policies that could have an impact on your supply chain. Use resources like Department of Commerce US and Foreign Regulations and Standards.</li>",
+          "<li>Understand human rights and environmental concerns such as child and forced labor in the Democratic Republic of Congo (DRC) in cobalt production or Uyghur Forced Labor Prevention Act Entity List that directly impact the battery industry. For environmental concerns consider adhering to ISO 14001 on Environmental Management Systems or the OECD Handbook on Environmental Due Diligence in Mineral Supply Chains.</li>",
+          "<li>Understand risks from foreign investors by reviewing National Counterintelligence and Security Center (NCSC) Venture Capital and Supply Chain Risk.</li>",
+          "<li>Identify potential Foreign Entities of Concern (FEOC) in your supply chain.</li>",
+          "</ul>",
+          "<li>Incorporate customer requirements into geopolitical risks prioritization.</li>",
+          "<ul class='checklist'>",
+          "<li>Understand customer preferences: are current, future, or desired customers interested in or requiring domestic sourcing, ethical practices, or sustainability to do business? For example, US government customers may require meeting FEOC guidance or European customers require meeting EU Batteries Regulation.</li>",
+          "<li>Use resources like the OECD Due Diligence Guidance to identify and understand the risks associated with sourcing minerals from high-risk areas.</li>",
+          "</ul>",
+          "<li>As geopolitical risks are identified select appropriate ways to evaluate the potential impacts and need for monitoring. This could include:</li>",
+          "<ul class='checklist'>",
+          "<li>Scenario Planning: develop several scenarios of geopolitical risks impacting the supply chain, create response plans to adapt operations.</li>",
+          "<li>Geographical Assessment: evaluate the geographical distribution of suppliers to understand their risk of environmental, geopolitical, or logistical risk. Note any geographical clusters of suppliers.</li>",
+          "<li>Risk Mapping: map out high-risk regions, considering factors such as political instability, ongoing conflicts, changing regulations, and shifting trade agreements.</li>",
+          "<li>Membership in Trade Associations: organizations can participate in industry groups or trade associations that focus on geopolitical risk, tariff changes, and international trade policies. These associations typically provide insights, updates, and recommendations for navigating geopolitical tensions.</li>",
+          "<li>Tariff Impact Modeling: modeling tools used to predict how tariffs will affect pricing, margins, and supply chains.</li>",
+          "<li>Trade Policy Tracking: track changes in trade agreements to anticipate impact on internal operations.</li>",
+          "</ul>",
+          "</ul>",
+        ]
+      },
+
+      "standards": {
+        "Society of Automotive Engineers": {
+          "link": "https://www.sae.org/standards",
+          "description": "Developed standard on EV traceability",
+        },
+        "Department of Commerce US and Foreign Regulations and Standards": {
+          "link": "https://www.trade.gov/comply-us-and-foreign-regulations",
+          "description": "",
+        },
+        "Section 301 of the Trade Act of 1974": {
+          "link": "",
+          "description": "U.S. imposed tariffs on a range of products including raw materials imported from China to address trade imbalances and concerns over intellectual property theft."
+        },
+
+        "DOE Guidance on Foreign Entity of Concern": {
+          "link": "https://www.federalregister.gov/documents/2024/05/06/2024-08913/interpretation-of-foreign-entity-of-concern",
+          "description": "Impose limits when an entity’s battery supply chain includes foreign entities of concern.",
+        },
+
+        "California Transparency in Supply Chains Act (CTSCA)": {
+          "link": "",
+          "description": "Companies must disclose efforts to ensure that their supply chains are free from human trafficking and forced labor.",
+        },
+        "Section 307 of the Tariff Act of 1930": {
+          "link": "",
+          "description": "Prohibits the importation of goods made using forced labor",
+        },
+        "International Labor Organization (ILO) Standards - Convention No. 138": {
+          "link": "",
+          "description": "Startups need to ensure their supply chains comply with the ILO's minimum age for employment and the prohibition of child labor.",
+        },
+        "Fair Labor Standards Act (FLSA)": {
+          "link": "",
+          "description": "The U.S. bans the importation of goods made with child labor.",
+        },
+      },
+    },
+
+    {
+      "title": "Conduct Due Diligence on Supplier Affiliation",
+
+      "justification": "Conducting due diligence on supplier affiliation enables you to identify risks related to improper foreign influence, connections to foreign entities of concern, or other affiliations that could pose legal, ethical, or reputational risks to your organization. By analyzing risk factors such as supplier's financial health, legal and compliance history, operational capacity, governance practices, corporate social responsibility policies and overall reputation, an organization is reducing the risk of any fines, penalties, loss of reputation or revenue associated with their operation.",
+
+      "actions": {
+        "description": "Implement a due diligence process to assess the affiliations and backgrounds of your suppliers, focusing on identifying any connections to countries of concern. Consider potential customer requirements or preferences that could make your organization more competitive.",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Define objectives and criteria for due diligence checks:</li>",
+          "<ul class='checklist'>",
+          "<li>Criteria will vary based on what is critical to your business. It can include factors such as compliance history, product quality, production capacity, financial strength, market reputation, social and environmental responsibility practices, among others. Tailor OECD Due Diligence Guidance to get started or the OECD Handbook on Environmental Due Diligence in Mineral Supply Chains.</li>",
+          "<li>Due diligence criteria should account for the values and requirements of potential customers.</li>",
+          "<li>Prioritize high risk areas that require more scrutiny.</li>",
+          "</ul>",
+          "<li>Assess risk related to foreign entities ownership or control, connections to restricted or sanctioned entities, cybersecurity risks, ethical concerns and document findings. Use DOE Foreign Entities of Concern Guidance on ownership and control from FEOCs. Morningstar is a free data source that provides public company data.</li>",
+          "<li>Gather information such as locations, ownership details, parent companies, subsidiaries, key personnel, partnerships, etc. for key suppliers. Conduct background checks looking through publicly available and government sources, including U.S. Treasury’s OFAC Sanctions List, Department of Commerce Consolidated Screening List, BIS Entity List, and the Uyghur Forced Labor Prevention Act Entity List.</li>",
+          "<li>Prioritize high risk suppliers and implement appropriate mitigation and monitoring to reduce risk exposure.</li>",
+          "</ul>",
+        ]
+      },
+
+      "references/examples": {
+        "Duracell’s Due Diligence Process for Battery Materials Supply Chain": {
+          "link": "https://www.duracell.com/wp-content/uploads/2024/08/Duracell-EU-Battery-Materials-Sourcing-Policy.pdf",
+          "description": "Duracell conducts risk-based supply chain due diligence on its battery material suppliers.",
+        },
+      },
+    },
+
+    {
+      "title": "Ad-hoc Crisis Response Planning",
+
+      "justification": "Supply chains are particularly exposed to crises from a variety of sources that range from a global pandemic to transportation failures that cause both short- and long-term disruptions to supply chains. Creating ad-hoc crisis response plans can help create flexible strategies to respond effectively to major supply chain disruptions that could lead to prolonged operational impacts.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Explore resources that may be available through your university or larger organization that can provide templates or guidance on crisis response planning.</li>",
+          "<li>Create a basic crisis response plan outlining key steps to take in the event of a disruption. Leverage NY-BEST Energy Storage Systems Safety and Best Practices, FEMA Business Response Planning Guidance, and the Leading Your Business During Disasters Checklist.</li>",
+          "<li>Identify a crisis response team with representation from operations, supply chain, finance, and communications.</li>",
+          "<li>Develop a short list of possible crisis scenarios that can be used as an example or to test plans. These scenarios should be reflective of common supply chain crisis such as: hurricane closing specific trade routes, labor shortage due to strike or other, key supplier loss, volatile market impacting prices or availability for critical materials. Leverage the FEMA Ready Business Risk Assessment Tool.</li>",
+          "<li>For each identified scenario, outline quick response protocols. These should include immediate actions to stabilize the situation, such as contacting alternative suppliers or rerouting shipments.</li>",
+          "<li>Create a communication plan for key internal and external stakeholders, leveraging identified communication channels and even pre-defined messages as appropriate.</li>",
+          "<ul class='checklist'>",
+          "<li>Discuss crisis response with key suppliers and coordinate communication plans in the event of a crisis.</li>",
+          "</ul>",
+          "<li>Define roles and responsibilities for each team member during a crisis and validate against the different scenarios and response protocols. Include roles and responsibilities around the rapid decision-making process that empowers the crisis response team to respond as new information becomes available.</li>",
+          "<li>Conduct regular drills to test plans and ensure the crisis response team is prepared.</li>",
+          "<li>Collect lessons learned and update plans as needed.</li>",
+          "</ul>",
+        ]
+      },
+    },
+
+    {
+      "title": "Increase Regulatory Compliance Awareness",
+
+      "justification": "By increasing regulatory compliance, it is more likely that legal penalties, fines, and sanctions are avoided. Companies can also position themselves strategically to take advantage of tax credits or incentives. Non-compliance has the potential to present financial burden, legal issues, and harm a business’s reputation.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Explore resources that may be available through your university or larger organization that can provide templates or guidance on compliance. NY-BEST Energy Storage Systems Safety and Best Practices Resource Library provides resources for energy storage codes and standards.</li>",
+          "<li>Educate the team on relevant supply chain regulations and standards, possibly with the help of external consultants for initial guidance.</li>",
+          "<li>Have awareness and collect information on International Traffic in Arms Regulations (ITAR), especially if you have a Small Business Innovation Research (SIBR) award.</li>",
+          "<li>Educate the team on potential tax credits or incentives that exist in NY state and identify any programs of which you are eligible and submit qualification documentation.</li>",
+          "<ul class='checklist'>",
+          "<li>New York Energy Storage Program: provides product development and market readiness resources to organizations based in New York.</li>",
+          "<li>Empire State Development (ESD) Incentives: provides a variety of tax incentives and grants to businesses in the state, particularly those that are involved in clean energy or manufacturing sectors like batteries.</li>",
+          "</ul>",
+          "<li>Ensure compliance with tax regulations and trade policies to avoid penalties and disruptions.</li>",
+          "<li>Stay informed about changes in export controls that could affect the ability to source or sell products internationally.</li>",
+          "<li>Consider creating a dedicated team to monitor evolving international trade policies and export regulations and assess policy impacts.</li>",
+          "</ul>",
+        ]
+      },
+
+      "standards": {
+        "ISO 9001": {
+          "link": "",
+          "description": "International standard that sets out the criteria for a quality management system, helping organizations meet customer and regulatory requirements",
+        },
+        "ISO 14001": {
+          "link": "",
+          "description": "International standard developed by the IS) that outlines the requirements for an effective Environmental Management System (EMS) to minimize environmental impact and comply with environmental regulation",
+        },
+        "UN 38.3 (Transportation of Dangerous Goods) ": {
+          "link": "",
+          "description": "A United Nations regulation requiring lithium batteries to undergo a series of rigorous safety tests to ensure they can be transported as dangerous goods without risk of fire or explosion",
+        },
+      },
+    },
+
+    {
+      "title": "Use Stockpiling Strategies to Ensure Steady Supply of Inputs",
+
+      "justification": "Stockpiling and other inventory management strategies ensure that supply disruptions do not lead to development or production stoppages. If companies are unprepared for disruptions to availability or unexpected quality or composition changes by suppliers, they may face costly or time-consuming disruptions to product development or production.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Perform analysis of key production steps to identify all relevant materials or other consumables used in the process.</li>",
+          "<ul class='checklist'>",
+          "<li>Identify chokepoints or other single points of failure where critical materials are required.</li>",
+          "<li>Review production processes to identify areas where alternatives are not readily available.</li>",
+          "</ul>",
+          "<li>Conduct preliminary technoeconomic analysis to identify the largest in production activities to perform targeted monitoring for price volatility.</li>",
+          "<li>Create and maintain an inventory system for all materials and components to track aspects such as expiration date and remaining availability.</li>",
+          "<ul class='checklist'>",
+          "<li>Develop and maintain a chemical hygiene plan to ensure safety of chemical storage.</li>",
+          "<li>Assign management responsibilities for maintaining stock levels and timely orders.</li>",
+          "<li>Begin record keeping to analyze material usage patterns to preemptively plan for purchasing.</li>",
+          "<li>Review resources like Best Practices for Lab Inventory Management, which provides a description of the benefits of stockpiling in a research lab but does include ads for an inventory management software, and NY-BEST Energy Storage Systems Safety and Best Practices Resource Library, which includes a range of resources on Battery Energy Storage Systems (BESS) safety from introductory information to relevant research, applicable guides and protocols, training resources, and webinars on battery energy storage safety best practices.</li>",
+          "</ul>",
+          "<li>Perform routine checks of supplier lead times for key materials or components to provide early notice of possible delays.</li>",
+          "<li>(If possible) Initiate efforts to explore alternative materials or component suppliers to assess their compatibility with existing production processes.</li>",
+          "</ul>",
+        ]
+      },
+    },
+
+    {
+      "title": "Strategize Protecting IP",
+
+      "justification": "IP mitigation efforts ensure that innovation is legally protected, advance and maintain a company's security posture to secure it from threat, maintain competitive advantage, and decrease risk of legal disputes. Ultimately, strong IP mitigation efforts are essential to attracting investors and commercializing products.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Review available resources on IP like UCSF Presentation on IP Strategy and The Role of IP Actions at Various TRL Levels to identify your organizations IP and potential avenues for protection.</li>",
+          "<li>Develop methods to separate out process innovations vs materials innovations.</li>",
+          "<li>Assess which processes are viable to protect.</li>",
+          "<li>Assess the patentability of each innovation and file for a provisional patent application.</li>",
+          "<li>Develop a licensing strategy.</li>",
+          "<li>Use non-disclosure agreements when discussing ideas with potential collaborators, partners, or investors.</li>",
+          "<li>Consider registering trademarks and securing domain names.</li>",
+          "<li>Identify suppliers that have access to IP and include protections in supplier contracts or require suppliers to sign non-disclosure agreements.</li>",
+          "<li>Incorporate IP protections into supplier evaluations or checks.</li>",
+          "</ul>",
+        ]
+      },
+
+      "references/examples": {
+        "Panasonic Intellectual Property": {
+          "link": "https://holdings.panasonic/global/corporate/about/intellectual-property.html",
+          "description": "Skip to “In-House Education and External Consumer Awareness-Raising”",
+        },
+        "Panasonic Code of Ethics and Compliance": {
+          "link": "https://d32zxht0g2dn3w.cloudfront.net/s3fs-public/2024-04/b1ea4f37-d309-4d2a-a93b-2d13663905e7.pdf",
+          "description": "Breaks down compliance responsibilities in the company and possible consequences of violating compliance codes. Starting page 13 on “Our Company Assets and Information”.",
+        },
+      },
+
+      "standards": {
+        "Uniform Trade Secrets Act (UTSA)": {
+          "link": "",
+          "description": "Provides a comprehensive set of statutes to govern trade secret protection.",
+        },
+        "Defend Trade Secrets Act (DTSA)": {
+          "link": "",
+          "description": "Allows companies to seek legal remedies when their trade secrets are unlawfully obtained or used, especially in cases involving interstate or foreign commerce.",
+        },
+        "United States Patent and Trademark Office (USPTO)": {
+          "link": "",
+          "description": "The federal agency under the Department of Commerce and is responsible for granting U.S. patents and registering trademarks.",
+        },
+        "(Trademarks) Lanham Act": {
+          "link": "",
+          "description": "Protects against consumer confusion regarding the source of goods or services. The USPTO is responsible for registering trademarks.",
+        },
+        "Patent Cooperation Treaty (PCT)": {
+          "link": "",
+          "description": "Allows battery startups to file a single international patent application that can be recognized globally.",
+        },
+      },
+    },
+  ],
+
+  "TRL 6-9": [
+    {
+      "title": "Supplier Evaluation",
+
+      "justification": "Supplier evaluation efforts reduce risk associated with compliance, performance, and product quality while cutting unnecessary spending.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Develop a list of key measures to assess supplier performance including:</li>",
+          "<ul class='checklist'>",
+          "<li>Quality: service quality and defect rates</li>",
+          "<li>Delivery: timeliness and reliability</li>",
+          "<li>Cost: price competitiveness and cost competitiveness</li>",
+          "<li>Compliance: including certifications like ISO 9001 or ISO 14001, as well as compliance with labor and environmental regulations</li>",
+          "<li>Geographic considerations: identification of geopolitical risks from primary or secondary-tier suppliers</li>",
+          "</ul>",
+          "<li>Consider creating a Supplier Code of Conduct or other procurement policy documentation to help guide this process and provide clear criteria for conduct and performance for suppliers. For example, see LG Supplier Code of Conduct</li>",
+          "<li>Document an evaluation framework that is repeatable for staff across relevant teams (i.e., procurement, operations, finance). Review resources like Chartered Institute of Procurement and Supply (CIPS) Supplier Evaluation Resources for Best Practices.</li>",
+          "<li>Create a tool to capture evaluations. Consider tailoring a free online template, like the Smartsheet Free Supply Chain Risk Assessment Template or SoftExpert Supplier Audit Checklist.</li>",
+          "<li>Ensure staff are trained in appropriate roles and responsibilities to conduct and manage supplier evaluations.</li>",
+          "<li>Analyze results: identify and document risks and issues associated with suppliers.</li>",
+          "<li>Take action to mitigate risks by providing feedback and giving suppliers guidance on reducing risk, strengthening relationships with existing or long-term partners, or consider replacing or identifying back-up suppliers.</li>",
+          "<li>Monitor and regularly reassess suppliers.</li>",
+          "</ul>",
+        ]
+      },
+
+      "references/examples": {
+        "Panasonic Supplier Selection and Evaluation": {
+          "link": "https://holdings.panasonic/global/corporate/sustainability/pdf/sdb2024e-supply_chain.pdf",
+          "description": "",
+        },
+      },
+    },
+    {
+      "title": "Maintain Supply Chain Visibility",
+
+      "justification": "Insight and tracking of supply chain materials enables the analysis of trends from suppliers, increasing the probability of detecting risks of supply chain disruptions before they impact operation.",
+
+      "actions": {
+        "description": "Develop tools to monitor supply chain materials. As the supply chain grows, consider commercial tools to enable consistent and deep visibility into the supply chain.",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Create a list of key materials and components critical to product development and prioritize them based on impact to production process and timeline.</li>",
+          "<ul class='checklist'>",
+          "<li>Document instances where specific suppliers are necessary for quality/impurity/morphology constraints.</li>",
+          "</ul>",
+          "<li>Choose a tool such as Excel that can be easily shared within your team for collaboration.</li>",
+          "<li>Create a tracking template with items like supplier name, quantity ordered, date ordered/expected delivery/actual delivery, delays/issues, etc.</li>",
+          "<li>Establish roles and responsibilities for regularly updating and tracking using this new tool.</li>",
+          "<li>Regularly review and monitor the tool to identify trends, common issues across suppliers, and capture risks as appropriate.</li>",
+          "<ul class='checklist'>",
+          "<li>As the company matures, consider using more advanced supply chain tracking software or working with a supply chain vendor or supply chain professional membership organizations, for staff training and certification and/or automate data collection.</li>",
+          "</ul>",
+          "<li>Ensure the process is clearly documented and employees are regularly trained in their roles and responsibilities.</li>",
+          "</ul>"
+        ]
+      },
+    },
+    {
+      "title": "Back-up Supplier Assessment",
+
+      "justification": "Energy storage materials have complex supply chains and often require materials from foreign entities. As a company develops its supply chain, understanding and monitoring the risks involved with sole-source suppliers is a must. A back-up supplier assessment can evaluate, measure, and monitor the resilience of suppliers and their back-ups. This type of effort can reveal opportunities to reduce costs and mitigate operational risk.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Create or review a list of existing suppliers. Identify critical suppliers that would have the most significant impact on operations. Consider the following areas:</li>",
+          "<ul class='checklist'>",
+          "<li>Geographic: Evaluate the geographical distribution of suppliers to understand their risk of environmental, geopolitical, or logistical (transportation) risk. Note any geographical clusters of suppliers.</li>",
+          "<li>Supplier Risk Profile: Evaluate the risks posed by each supplier, such as financial stability, geopolitical risks, supply chain dependencies, or the potential for natural disasters or labor strikes.</li>",
+          "<li>Strategic Procurement: Consider price, product quality, delivery performance, manufacturing facilities and capacity, technical competence and potential for innovation.</li>",
+          "<li>Consider working with a third party like Benchmark Minerals Intelligence, a private company that provides data subscriptions and analysis on the battery and critical materials markets to access tools like the BMI Price Dashboard to increase market awareness (Offers free articles on market insights and events. Paid resources include price and market data subscriptions and specialty services). Additionally, Volta Foundation offers an annual Battery Report that summarizes the battery industry </li>",
+          "</ul>",
+          "<li>Identify alternative suppliers and assess whether they could meet your requirements or needs. Identify costs and benefits of switching or adding suppliers.</li>",
+          "<ul class='checklist'>",
+          "<li>If looking for new suppliers consider battery specific supplier databases like NY-BEST Supply Chain Database, Li-ion Battery Supply Chain Database, or more generally the NIST MEP Supplier Scouting Service.</li>",
+          "</ul>",
+          "<li>Develop a plan to diversify suppliers including timelines, budget considerations, and milestones. This may include onboarding new suppliers or renegotiating contracts.</li>",
+          "</ul>"
+        ]
+      },
+    },
+    {
+      "title": "Conduct Due Diligence on Supplier Affiliations",
+
+      "justification": "Supplier activity in foreign countries or relationships with Foreign Entities of Concern (FEOC) can expose your organization to legal risks, reputational damage or affect eligibility for tax credits and government funding. By analyzing risk factors such as supplier's financial health, legal and compliance history, operational capacity, governance practices, corporate social responsibility policies and overall reputation, an organization can reduce the risk of any fines, penalties, or loss of reputation associated with their operation and ensure their eligibility for government programs.",
+
+      "actions": {
+        "description": "Implement a due diligence process to assess the affiliations and backgrounds of your suppliers, focusing on identifying any connections to countries of concern. Consider potential customer requirements or preferences that could make your organization more competitive.",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Define objectives and criteria for due diligence checks:</li>",
+          "<ul class='checklist'>",
+          "<li>Criteria will vary based on what is critical to your business. It can include factors such as compliance history, product quality, production capacity, financial strength, market reputation, social and environmental responsibility practices, among others. Review the OECD Due Diligence Guidance as an example. See government websites like Commerce for information on Foreign Regulations and Standards.</li>",
+          "<li>Due diligence criteria should account for the values and requirements of potential customers.</li>",
+          "<li>Prioritize high risk areas that require more scrutiny.</li>",
+          "</ul>",
+          "<li>Create a tool to track due diligence findings on suppliers. Consider tailoring tools like the London Metal Exchange (LME) Red Flag Assessment Template, the Extended Minerals Reporting Template, or other freely available resources.</li>",
+          "<li>Assess and document risks related to foreign entities ownership or control, connections to restricted or sanctioned entities, cybersecurity risks, and ethical concerns. Use DOE Foreign Entity of Concern Guidance for insight into the metrics for determining FEOC. Use sources like Morningstar that provides public company data.</li>",
+          "<li>FEOC guidance looks for information on supplier locations, ownership details, parent companies, subsidiaries, key personnel, partnerships etc. for key suppliers. Conduct checks looking through publicly available and government sources including U.S. Treasury’s OFAC Sanctions List, Department of Commerce Consolidated Screening List, BIS Entity List, and the Uyghur Forced Labor Prevention Act Entity List.</li>",
+          "<li>Prioritize high risk suppliers and implement appropriate mitigation and monitoring to reduce risk exposure.</li>",
+          "</ul>"
+        ]
+      },
+
+      "references/examples": {
+        "Duracell’s Due Diligence Process for Battery Materials Supply Chain": {
+          "link": "https://www.duracell.com/wp-content/uploads/2024/08/Duracell-EU-Battery-Materials-Sourcing-Policy.pdf",
+          "description": "",
+        },
+      },
+
+      "standards": {
+        "Department of Commerce US and Foreign Regulations and Standards": {
+          "link": "https://www.trade.gov/comply-us-and-foreign-regulations",
+          "description": "",
+        },
+        "ISO 14001": {
+          "link": "",
+          "description": "Specific to Environmental Management and some battery companies will use this to ensure their suppliers are adhering to environmental law."
+        },
+        "U.S. Customs and Border Protection (CBP) Customs Trade Partnership Against Terrorism (CTPAT) Trade Compliance": {
+          "link": "https://www.cbp.gov/border-security/ports-entry/cargo-security/ctpat/trade-compliance",
+          "description": "A self-assessment program that allows importers to self-monitor compliance in exchange for benefits",
+        },
+      },
+    },
+    {
+      "title": "Crisis Response Plan",
+
+      "justification": "A crisis response plan will establish systems that will minimize long-term financial, legal, and reputational damage in the event of a crisis. If established and maintained successfully, a crisis response plan can position an organization to be resilient during crisis.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Create a crisis response plan outlining key steps to take in the event of disruption. Leverage NY-BEST Energy Storage Systems Safety and Best Practices Resource Library, FEMA Business Response Planning Guidance, and the Leading Your Business During Disasters Checklist.</li>",
+          "<li>Identify a crisis response team with representation from operations, supply chain, finance, and communications.</li>",
+          "<li>Develop a short list of possible crisis scenarios such as, hurricane closing specific trade routes, labor shortage due to strike or other, key supplier loss, volatile market impacting prices, that can be used as an example or to test plans. Leverage the FEMA Ready Business Risk Assessment Tool.</li>",
+          "<li>For each identified scenario, outline quick response protocols that include immediate actions to stabilize the situation, such as contacting alternative suppliers or rerouting shipments.</li>",
+          "<li>Create a communication plan for key internal and external stakeholders, leveraging identified communication channels and even pre-defined messages as appropriate.</li>",
+          "<ul class='checklist'>",
+          "<li>Discuss crisis response with key suppliers and coordinate communication plans in the event of a crisis.</li>",
+          "</ul>",
+          "<li>Define roles and responsibilities for each team member during a crisis and validate against the different scenarios and response protocols. Include roles and responsibilities around the rapid decision-making process that empowers the crisis response team to respond as new information becomes available.</li>",
+          "<li>Conduct regular drills to test plans and ensure the crisis response team is prepared.</li>",
+          "<li>Collect lessons learned and update plans as needed.</li>",
+          "</ul>"
+        ]
+      },
+    },
+    {
+      "title": "Maintain Regulatory Compliance Awareness",
+
+      "justification": "Maintaining regulatory compliance will mitigate risk of legal penalties, fines, sanctions, and reputational harm. Further, companies can position themselves strategically to take advantage of tax credits or incentives. Advanced battery technology is subject to a variety of regulatory constraints that require careful monitoring.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Conduct an internal audit to evaluate the effectiveness of your current compliance strategy with particular attention to International Traffic in Arms Regulations (ITAR) controls, especially if you have a Small Business Innovation Research (SIBR) award.</li>",
+          "<li>Educate the team on relevant supply chain regulations and standards, possibly with the help of external consultants for initial guidance. NY-BEST Energy Storage Systems Safety and Best Practices Resource Library provides resources for energy storage codes and standards.</li>",
+          "<ul class='checklist'>",
+          "<li>Provide team with periodic, up-to-date compliance training.</li>",
+          "</ul>",
+          "<li>Educate the team on potential tax credits or incentives that exist in NY state.</li>",
+          "<ul class='checklist'>",
+          "<li>Identify any programs of which you are eligible and submit qualification documentation.</li>",
+          "<li>New York Energy Storage Program: Provides product development and market readiness resources to organizations based in New York.</li>",
+          "<li>Empire State Development (ESD) Incentives: Provides a variety of tax incentives and grants to businesses in the state, particularly those that are involved in clean energy or manufacturing sectors, like batteries.</li>",
+          "</ul>",
+          "<li>Stay informed about changes in export controls that could affect the ability to source or sell products internationally.</li>",
+          "<li>Consider creating a dedicated team to monitor evolving international trade policies and export regulations and assess policy impacts.</li>",
+          "<li>Maintain constant evaluation to identify changing regulations.</li>",
+          "<li>Streamline the work required to comply with regulations, particularly around workflows, reports, and recordkeeping by applying automatic compliance tools/software.</li>",
+          "</ul>"
+        ]
+      },
+
+      "references/examples": {
+        "Duracell Responsible Trading Code of Conduct and Prohibited Business Practices": {
+          "link": "https://www.duracell.com/wp-content/uploads/2024/08/Duracell-Responsible-Trading-Code-of-Conduct-and-Prohibited-Business-Practices.pdf",
+          "description": "",
+        },
+      },
+
+      "standards": {
+        "ISO 9001": {
+          "link": "https://www.iso.org/standard/62085.html",
+          "description": "",
+        },
+        "ISO 14001": {
+          "link": "https://www.iso.org/standard/60857.html",
+          "description": "",
+        },
+        "UN 38.3 (Transportation of Dangerous Goods)": {
+          "link": "https://www.intertek.com/batteries/un-38-3-testing/",
+          "description": "",
+        },
+      },
+    },
+    {
+      "title": "Formal Risk Management Plan",
+
+      "justification": "A formal risk management plan can identify, evaluate and prioritize potential threats and vulnerabilities to take proactive steps to mitigate risk and reduce the likelihood of negative impacts.",
+
+      "actions": {
+        "description": "Develop a formal risk management plan. Tailor resources like Smartsheet Free Supply Chain Risk Assessment Template and leverage risk management knowledge from CISA’s Resource Guide for Developing a Resilient Supply Chain Risk Management Plan, and National Supply Chain Integrity Best Practices.",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>This plan should detail:</li>",
+          "<ul class='checklist'>",
+          "<li>The process by which the organization identifies, assesses, mitigates or avoids, and monitors risks</li>",
+          "<li>The roles and responsibilities associated with implementing risk management</li>",
+          "<li>The process to identify and monitor critical suppliers</li>",
+          "<li>Key risks that need to be continuously tracked and considered across suppliers</li>",
+          "<li>Contingency plan.</li>",
+          "<li>Monitoring and improvement plans</li>",
+          "</ul>",
+          "<li>Develop a risk tracking tool or mechanism where risks can be tracked and assessed.</li>",
+          "<ul class='checklist'>",
+          "<li>Use supply chain taxonomies and tools like MITRE System of Trust to help identify supply chain risks.</li>",
+          "</ul>",
+          "<li>Ensure the appropriate staff are trained in supply chain risk management.</li>",
+          "<li>Monitor and update to ensure risk management practices are implemented across the organization.</li>",
+          "</ul>"
+        ]
+      },
+
+      "references/examples": {
+        "Panasonic Risk Management": {
+          "link": "https://holdings.panasonic/global/corporate/sustainability/pdf/sdb2024e-riskmanagement.pdf",
+          "description": "",
+        },
+      },
+    },
+    {
+      "title": "Formal Inventory Management",
+
+      "justification": "Companies operating in TRL 6-9 are transitioning from small-scale or pilot-scale production to full-scale manufacturing. During this time, supply chain disruptions can result in costly delays or price overruns to scale-up and product delivery. Supply chain disruption can also lead to quality control issues that affect end-product viability and customer satisfaction. Effective inventory management strategies ensure reliably operational continuity, scalability, and cost control during a critical phase in the product development lifecycle.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Utilize financial tools such as futures contracts to hedge against price volatility or build physical stockpiles of key components and materials.</li>",
+          "<li>Leverage previously developed production process mapping to identify key input materials or components throughout production process.</li>",
+          "<ul class='checklist'>",
+          "<li>Update procedures based on expected scaleup route and production changes to account for differences in inputs.</li>",
+          "</ul>",
+          "<li>Develop scalable inventory management systems that can integrate materials and component tracking to monitor stock levels, expiration dates, and usage patterns.</li>",
+          "<ul class='checklist'>",
+          "<li>(Optional) Integrate production schedules to forecast changes in expected usage patterns.</li>",
+          "<li>Establish minimum threshold levels for reordering or establish automatic purchasing processes.</li>",
+          "</ul>",
+          "<li>Use quantified usage patterns for key materials or components to begin to negotiate long-term contracts with suppliers to secure consistent pricing.</li>",
+          "<ul class='checklist'>",
+          "<li>Accounting for expected usage patterns and expiration dates, explore bulk purchases to ensure availability of inventory.</li>",
+          "<li>(Optional) Initiate discussions with alternative suppliers to evaluate quality, lead time, cost, and availability of materials or components.</li>",
+          "<li>(Optional) Initiate discussions with key suppliers to understand capacity limitations to ensure suppliers can meet expected production ramp schedules and scale.</li>",
+          "</ul>",
+          "<li>Proactively monitor market trends such as forecasted supply/demand balance to identify areas of potential price volatility. For key materials and components, establish a contingency budget to stockpile levels needed to account for price volatility.</li>",
+          "</ul>"
+        ]
+      },
+
+      "standards": {
+        "Office of Air Quality Planning and Standards (OAQPS) Small Business Assistance Program (SBAP) | US EPA": {
+          "link": "https://www.epa.gov/stationary-sources-air-pollution/office-air-quality-planning-and-standards-oaqps-small-business",
+          "description": "Provides guidance on a variety of different Clean Air Act regulations that organizations need to follow when producing or storing chemicals. *Note that these vary widely by activity so it is difficult to select a single example. Instead, companies will need to find their specific activity subset to view the appropriate standards.",
+        },
+        "ISO 14001:2015(en), Environmental management systems": {
+          "link": "https://www.iso.org/obp/ui/en/#iso:std:iso:14001:ed-3:v1:en",
+          "description": "Requirements with guidance for use--this ISO standard can be purchased and explains how to create an environmental mitigation plan that can be used to safely stockpile materials.",
+        },
+      },
+    },
+    {
+      "title": "Maintain IP Security",
+
+      "justification": "IP mitigation efforts ensure that innovation is legally protected, advance and maintain a company's security posture to secure it from threat, maintain competitive advantage, and decrease risk of legal disputes. Ultimately, strong IP mitigation efforts are essential to attracting investors and commercializing products.",
+
+      "actions": {
+        "description": "",
+        "list": [
+          "<ul class='checklist'>",
+          "<li>Develop a strong patent portfolio strategy that aligns with the overall business plan. The patent portfolio should generate revenue for the company by protecting its investments. Obtaining patent protection for battery innovations requires battery companies to file patent applications with the USPTO.</li>",
+          "<li>Review available resources on IP like UCSF Presentation on IP Strategy and The Role of IP Actions at Various TRL Levels to identify your organizations IP and potential avenues for protection.</li>",
+          "<li>Consider when appropriate to conduct Freedom to Operate (FTO) search to ensure that production does not infringe on the IP rights of others. The World Intellectual Property Organization (WIPO) offers information in their Using Inventions in the Public Domain (starting pg. 44).</li>",
+          "<li>Consider what to patent (battery management systems, battery components, cell assembly, manufacturing processes, or components), where to patent, what patents to sell or to license:</li>",
+          "<ul class='checklist'>",
+          "<li>Electrode, cell, or pack design</li>",
+          "<li>Manufacturing or unique production processes</li>",
+          "<li>Energy storage solutions</li>",
+          "<li>Develop a licensing strategy</li>",
+          "<li>Identify in which countries to file patent applications</li>",
+          "</ul>",
+          "<li>Identify and plan for attorney fees, filing fees, potential translation fees (if filing in a non-English language jurisdiction), and annuity fees, among others.</li>",
+          "<ul class='checklist'>",
+          "<li>Consider: costs and relative ease/difficulty of filing and prosecution, time to grant, length and quality of examination, and enforcement capabilities, present markets.</li>",
+          "</ul>",
+          "<li>Identify when to use trade secrets. A trade secret will maintain confidentiality while avoiding the need to publicly disclose innovation when it occurs.</li>",
+          "<ul class='checklist'>",
+          "<li>Consider the risk that exists within the competition landscape when publishing a patent.</li>",
+          "</ul>",
+          "<li>Identify suppliers that have access to IP and include protections in supplier contracts or require suppliers to sign non-disclosure agreements.</li>",
+          "<li>Incorporate IP protections into supplier evaluations or checks.</li>",
+          "</ul>"
+        ]
+      },
+
+      "references/examples": {
+        "Panasonic Intellectual Property": {
+          "link": "https://holdings.panasonic/global/corporate/about/intellectual-property.html",
+          "description": "",
+        },
+      },
+
+      "standards": {
+        "United States Patent and Trademark Office (USPTO)": {
+          "link": "",
+          "description": "",
+        },
+        "Uniform Trade Secrets Act (UTSA)": {
+          "link": "",
+          "description": "",
+        },
+        "Defend Trade Secrets Act (DTSA)": {
+          "link": "",
+          "description": "",
+        },
+        "(Trademarks) Lanham Act": {
+          "link": "",
+          "description": "Protects against consumer confusion regarding the source of goods or services. The USPTO is responsible for registering trademarks.",
+        },
+        "Patent Cooperation Treaty (PCT)": {
+          "link": "",
+          "description": "Allows battery startups to file a single international patent application that can be recognized globally.",
+        },
+      },
+    },
+  ]
+};
+
+window.questions = {
+  "TRL 3-5": [
+    {
+      "text": "Are you part of an organization that has visibility into your supply chains by either knowing Tier 2 and 3 suppliers or having insight into geographic locations where materials are sourced?",
+      "answers": [
+        {
+          "text": "We utilize a comprehensive supply chain management approach that provides real-time visibility into operations.",
+          "weights": [-0.25, -0.5, 0, 0, -0.5, 0, 0, 0, 0]
+        },
+        {
+          "text": "We are affiliated with a university or organization that offers tools or methods to enhance supply chain visibility.",
+          "weights": [-0.15, -0.25, 0, 0, -0.25, 0, 0, 0, 0]
+        },
+        {
+          "text": "We rely on a mix of digital tools and manual processes to achieve visibility across our supply chain.",
+          "weights": [0.15, 0.15, 0, 0, 0.15, 0, 0, 0, 0]
+        },
+        {
+          "text": "We have limited visibility into our supply chain and do not leverage our organization’s supplier systems beyond immediate suppliers.",
+          "weights": [0.25, 0.25, 0, 0, 0.25, 0, 0, 0, 0]
+        },
+        {
+          "text": "We are not affiliated with an organization and/or do not actively maintain visibility into our supply chain.",
+          "weights": [0.5, 0.5, 0, 0, 0.5, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "text": "How do you manage relationships with key suppliers?",
+      "answers": [
+        {
+          "text": "We have strong, collaborative relationships with key suppliers and institutions, involving regular communication.",
+          "weights": [-0.5, -0.25, 0, 0, -0.25, -0.25, 0, -0.25, -0.5]
+        },
+        {
+          "text": "We maintain regular communication with key suppliers and academic institutions to improve supply chains.",
+          "weights": [-0.25, -0.15, 0, 0, -0.15, -0.15, 0, -0.15, -0.25]
+        },
+        {
+          "text": "We have minimal communication with key suppliers.",
+          "weights": [0.25, 0.15, 0, 0, 0.15, 0.15, 0, 0.15, 0.25]
+        },
+        {
+          "text": "We do not actively manage relationships with our suppliers and/or switch suppliers when problems arise.",
+          "weights": [0.5, 0.25, 0, 0, 0.25, 0.25, 0, 0.25, 0.5]
+        }
+      ]
+    },
+    {
+      "text": "What plans do you have in place to mitigate supply chain disruptions?",
+      "answers": [
+        {
+          "text": "We have a formal risk management plan with identified contingencies.",
+          "weights": [-0.25, -0.75, -1, 0, -0.25, -0.5, -0.25, 0, -0.25]
+        },
+        {
+          "text": "We have informal strategies but no documented plan.",
+          "weights": [-0.15, -0.5, -0.5, 0, -0.15, -0.25, -0.15, 0, -0.15]
+        },
+        {
+          "text": "We rely on our institution or on our suppliers to manage disruptions.",
+          "weights": [0.15, 0.5, 0.5, 0, 0.15, 0.25, 0.15, 0, 0.15]
+        },
+        {
+          "text": "We do not have specific plans in place.",
+          "weights": [0.25, 0.75, 1, 0, 0.25, 0.5, 0.25, 0, 0.25]
+        }
+      ]
+    },
+    {
+      "text": "How well do you understand the geopolitical risks associated with your foreign suppliers?",
+      "answers": [
+        {
+          "text": "Our main institution conducts risk assessments and auditing specifically related to our project.",
+          "weights": [0, -0.5, -0.25, -1, -0.5, 0, 0, -0.25, 0]
+        },
+        {
+          "text": "Our institution conducts risks assessments in general, not specifically on our project.",
+          "weights": [0, -0.25, -0.15, -0.5, -0.25, 0, 0, -0.15, 0]
+        },
+        {
+          "text": "Our institution conducts training courses and holds courses on foreign risks, but no formal assessment.",
+          "weights": [0, 0.25, 0.15, 0.5, 0.25, 0, 0, 0.15, 0]
+        },
+        {
+          "text": "We do not conduct any assessments on foreign suppliers.",
+          "weights": [0, 0.5, 0.25, 1, 0.5, 0, 0, 0.25, 0]
+        }
+      ]
+    },
+    {
+      "text": "Are any of your suppliers headquartered in, producing in, or have significant influence from Foreign Entities of Concern (FEOC)?",
+      "answers": [
+        {
+          "text": "We have confirmation that our materials and supplies do not come from foreign sources.",
+          "weights": [0, -0.75, 0, -0.75, -0.75, 0, 0, 0, -0.5]
+        },
+        {
+          "text": "We work with materials that come from foreign sources, but those suppliers are not sourced from or affiliated with FEOCs.",
+          "weights": [0, -0.5, 0, -0.5, -0.5, 0, 0, 0, -0.25]
+        },
+        {
+          "text": "We have foreign suppliers, but we don’t know if our materials are sourced from or have affiliations with FEOCs.",
+          "weights": [0, 0.5, 0, 0.5, 0.5, 0, 0, 0, 0.25]
+        },
+        {
+          "text": "We have foreign suppliers and are aware some suppliers are likely to meet the current definition of FEOCs.",
+          "weights": [0, 0, 0, 0.5, 0.75, 0, 0.25, 0.25, 0.5]
+        },
+        {
+          "text": "We do not track or know beyond our immediate suppliers.",
+          "weights": [0, 0.75, 0, 0.75, 0.75, 0, 0, 0, 0.5]
+        }
+      ]
+    },
+    {
+      "text": "How diversified is your supplier base?",
+      "answers": [
+        {
+          "text": "We purchase materials from multiple suppliers for each critical component, and they are interchangeable.",
+          "weights": [0, -0.25, -0.25, -0.5, -0.75, -0.25, 0, -0.5, 0]
+        },
+        {
+          "text": "We purchase materials from a single supplier.",
+          "weights": [0, -0.15, -0.15, -0.25, -0.5, -0.15, 0, -0.25, 0]
+        },
+        {
+          "text": "We have some back-up suppliers but not for key materials.",
+          "weights": [0, 0.15, 0.15, 0.25, 0.5, 0.15, 0, 0.25, 0]
+        },
+        {
+          "text": "We have not assessed our set of back-up suppliers.",
+          "weights": [0, 0.25, 0.25, 0.5, 0.75, 0.25, 0, 0.5, 0]
+        }
+      ]
+    },
+    {
+      "text": "How do you ensure compliance with relevant supply chain regulations and standards?",
+      "answers": [
+        {
+          "text": "We are regularly audited by our affiliated institution.",
+          "weights": [0, -1.25, 0, 0, 0, 0, -1.5, 0, -0.25]
+        },
+        {
+          "text": "We have paid external consultants to provide assessment on regulations and standards.",
+          "weights": [0, -0.75, 0, 0, 0, 0, -1, 0, -0.15]
+        },
+        {
+          "text": "We address compliance issues as they arise.",
+          "weights": [0, 0.75, 0, 0, 0, 0, 1, 0, 0.15]
+        },
+        {
+          "text": "We do not have specific compliance requirements.",
+          "weights": [0, 1.25, 0, 0, 0, 0, 1.5, 0, 0.25]
+        }
+      ]
+    },
+    {
+      "text": "How prepared is your project to respond to a major supply chain disruption such as stoppage or sudden loss of a supplier?",
+      "answers": [
+        {
+          "text": "We have a detailed set of rules on how to handle a supply chain crisis.",
+          "weights": [-0.5, 0, -0.5, 0, 0, -1, 0, 0, 0]
+        },
+        {
+          "text": "We have a basic plan but have not tested it.",
+          "weights": [-0.25, 0, -0.25, 0, 0, -0.5, 0, 0, 0]
+        },
+        {
+          "text": "We respond to disruptions as they come.",
+          "weights": [0.25, 0, 0.25, 0, 0, 0.5, 0, 0, 0]
+        },
+        {
+          "text": "We do not have a crisis response plan.",
+          "weights": [0.5, 0, 0.5, 0, 0, 1, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "text": "How does your organization manage or mitigate price fluctuations or significant price changes?",
+      "answers": [
+        {
+          "text": "We monitor market prices and adjust our purchasing strategies accordingly.",
+          "weights": [-0.25, 0, -0.25, -0.25, 0, -0.25, 0, -0.75, 0]
+        },
+        {
+          "text": "We react to price changes as they occur without specific strategies.",
+          "weights": [0, 0, 0, 0, 0, 0, 0, 0, 0]
+        },
+        {
+          "text": "We do not manage or mitigate price fluctuations.",
+          "weights": [0.25, 0, 0.25, 0.25, 0, 0.25, 0, 0.75, 0]
+        }
+      ]
+    },
+    {
+      "text": "How do you evaluate the performance and reliability of your suppliers?",
+      "answers": [
+        {
+          "text": "We have been trained and will use a formal evaluation process with metrics and KPIs.",
+          "weights": [-0.25, -0.25, 0, 0, -0.75, 0, 0, -0.25, 0]
+        },
+        {
+          "text": "We have not been trained but conduct informal evaluations and metrics surveys.",
+          "weights": [-0.15, -0.15, 0, 0, -0.5, 0, 0, -0.15, 0]
+        },
+        {
+          "text": "We rely on feedback from other researchers or departments at our institution.",
+          "weights": [0.15, 0.15, 0, 0, 0.5, 0, 0, 0.15, 0]
+        },
+        {
+          "text": "We do not assess suppliers on performance.",
+          "weights": [0.25, 0.25, 0, 0, 0.75, 0, 0, 0.25, 0]
+        }
+      ]
+    },
+    {
+      "text": "How are you currently developing your workforce around supply chain management?",
+      "answers": [
+        {
+          "text": "We have established a training program and continue to actively engage in training, utilizing both internal, Engine, and institution resources and external training providers to tailor our approach to specific needs.",
+          "weights": [0, 0, -0.75, -0.5, 0, 0, 0, 0, 0]
+        },
+        {
+          "text": "We have implemented an introductory training program that covers fundamental supply chain management principles, found institutional support, and we occasionally utilize external workshops or seminars.",
+          "weights": [0, 0, -0.5, -0.25, 0, 0, 0, 0, 0]
+        },
+        {
+          "text": "We have identified key supply chain management concepts and are in the process of developing a basic training program for our team, including exploring support from the academic institutions.",
+          "weights": [0, 0, 0.5, 0.25, 0, 0, 0, 0, 0]
+        },
+        {
+          "text": "We have not yet started any formal training or preparation for supply chain management.",
+          "weights": [0, 0, 0.75, 0.5, 0, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "text": "How does your organization secure key intellectual property such as patents or methods?",
+      "answers": [
+        {
+          "text": "We have completed a Freedom to Operate (FTO) analysis to integrate all relevant IP into our management procedures.",
+          "weights": [0, 0, -1, 0, 0, 0, -0.5, 0, -1.5]
+        },
+        {
+          "text": "We utilize industry best practices to protect our IP portfolio from theft, but have not completed an FTO.",
+          "weights": [0, 0, -0.5, 0, 0, 0, -0.25, 0, -0.75]
+        },
+        {
+          "text": "We have developed basic protection procedures to prevent leaks or theft of core IP.",
+          "weights": [0, 0, 0.5, 0, 0, 0, 0.25, 0, 0.75]
+        },
+        {
+          "text": "We have not developed any IP management plans.",
+          "weights": [0, 0, 1, 0, 0, 0, 0.5, 0, 1.5]
+        }
+      ]
+    }
+  ],
+
+  "TRL 6-9": [
+    {
+      "text": "How does your organization track the flow of materials and components through your supply chain?",
+      "answers": [
+        {
+          "text": "We use a comprehensive supply chain management method with real-time tracking capabilities.",
+          "weights": [-0.5, -0.75, 0, -0.5, -0.5, 0, 0, 0, 0]
+        },
+        {
+          "text": "We use a combination of digital tools and manual methods to track materials and suppliers.",
+          "weights": [-0.25, -0.5, 0, -0.25, -0.25, 0, 0, 0, 0]
+        },
+        {
+          "text": "We rely primarily on manual tracking methods and have limited visibility beyond immediate suppliers.",
+          "weights": [0.25, 0.5, 0, 0.25, 0.25, 0, 0, 0, 0]
+        },
+        {
+          "text": "We do not track suppliers and components.",
+          "weights": [0.5, 0.75, 0, 0.5, 0.5, 0, 0, 0, 0]
+        }
+      ]
+    },
+    {
+      "text": "How do you manage relationships with key suppliers?",
+      "answers": [
+        {
+          "text": "We have strong, collaborative relationships with key suppliers, involving regular communication and joint problem-solving.",
+          "weights": [-1, -0.25, 0, 0, -0.5, -0.5, 0, 0, -0.5]
+        },
+        {
+          "text": "We maintain regular communication with key suppliers but do not engage in collaborative problem-solving.",
+          "weights": [-0.5, -0.15, 0, 0, -0.25, -0.25, 0, 0, -0.25]
+        },
+        {
+          "text": "We have minimal communication with key suppliers.",
+          "weights": [0.5, 0.15, 0, 0, 0.25, 0.25, 0, 0, 0.25]
+        },
+        {
+          "text": "We do not actively manage relationships with our suppliers and/or switch suppliers when problems arise.",
+          "weights": [1, 0.25, 0, 0, 0.5, 0.5, 0, 0, 0.5]
+        }
+      ]
+    },
+    {
+      "text": "What measures do you have in place to mitigate supply chain disruptions?",
+      "answers": [
+        {
+          "text": "We have a formal risk management plan with identified contingencies.",
+          "weights": [-0.5, -0.75, -1, 0, -0.5, -0.5, -0.25, 0, -0.75]
+        },
+        {
+          "text": "We have informal strategies but no documented plan.",
+          "weights": [-0.25, -0.5, -0.5, 0, -0.25, -0.25, -0.15, 0, -0.5]
+        },
+        {
+          "text": "We rely on our suppliers to manage disruptions.",
+          "weights": [0.25, 0.5, 0.5, 0, 0.25, 0.25, 0.15, 0, 0.5]
+        },
+        {
+          "text": "We do not have specific measures in place.",
+          "weights": [0.5, 0.75, 1, 0, 0.5, 0.5, 0.25, 0, 0.75]
+        }
+      ]
+    },
+    {
+      "text": "How well do you understand the geopolitical risks associated with your foreign suppliers? Geopolitical risks mainly involve understanding foreign conflicts and tariffs.",
+      "answers": [
+        {
+          "text": "We do not have foreign suppliers.",
+          "weights": [-0.25, -0.5, -1, -0.75, 0, 0, -0.75, 0, 0],
+        },
+        {
+          "text": "We conduct regular risk assessments, scenario planning, and auditing.",
+          "weights": [-0.15, -0.25, -0.5, -0.5, 0, 0, -0.5, 0, 0]
+        },
+        {
+          "text": "We have a basic understanding but no formal assessments.",
+          "weights": [0.15, 0.25, 0.5, 0.5, 0, 0, 0.5, 0, 0]
+        },
+        {
+          "text": "We are not tracking specific geopolitical risks.",
+          "weights": [0.25, 0.5, 1, 0.75, 0, 0, 0.75, 0, 0]
+        }
+      ]
+    },
+    {
+      "text": "How does your organization secure key intellectual property such as patents or methods?",
+      "answers": [
+        {
+          "text": "We have completed a Freedom to Operate (FTO) analysis to integrate all relevant IP into our management procedures.",
+          "weights": [0, 0, 0, 0, 0, -0.5, -1, 0, -1.5]
+        },
+        {
+          "text": "We utilize industry best practices to protect our IP portfolio from theft, but have not gone through an FTO analysis.",
+          "weights": [0, 0, 0, 0, 0, -0.25, -0.5, 0, -0.75]
+        },
+        {
+          "text": "We have developed basic protection procedures to prevent leaks or theft of core IP.",
+          "weights": [0, 0, 0, 0, 0, 0.25, 0.5, 0, 0.75]
+        },
+        {
+          "text": "We have not developed any IP management plans.",
+          "weights": [0, 0, 0, 0, 0, 0.5, 1, 0, 1.5]
+        }
+      ]
+    },
+    {
+      "text": "Are any of your suppliers headquartered in, producing in, or have significant influence from Foreign Entities of Concern (FEOC)?",
+      "answers": [
+        {
+          "text": "We have confirmation that our materials and supplies do not come from foreign sources.",
+          "weights": [-0.75, -0.75, -0.75, -0.75, 0, 0, 0, 0, -0.5]
+        },
+        {
+          "text": "We work with materials that come from foreign sources, but those suppliers are not sourced from or affiliated with FEOCs.",
+          "weights": [-0.5, -0.5, -0.5, -0.5, 0, 0, 0, 0, -0.25]
+        },
+        {
+          "text": "We have foreign suppliers, but we don’t know if our materials are sourced from or have affiliations with FEOCs.",
+          "weights": [0.5, 0.5, 0.5, 0.5, 0, 0, 0, 0, 0.25]
+        },
+        {
+          "text": "We have foreign suppliers and are aware some suppliers are likely to meet the current definition of FEOC.",
+          "weights": [0.5, 0, 0.75, 0.75, 0, 0.25, 0.25, 0, 0.5]
+        },
+        {
+          "text": "We do not track or know beyond our immediate suppliers.",
+          "weights": [0.75, 0.75, 0.75, 0.75, 0, 0, 0, 0, 0.5]
+        }
+      ]
+    },
+    {
+      "text": "How diversified is your supplier base?",
+      "answers": [
+        {
+          "text": "We have multiple suppliers for each critical component and materials.",
+          "weights": [-0.5, -0.25, -0.5, -1, -0.25, 0, -0.25, -0.25, -0.25]
+        },
+        {
+          "text": "We have some back-up suppliers but not for all critical components and materials.",
+          "weights": [-0.25, -0.15, -0.25, -0.5, -0.15, 0, -0.15, -0.15, -0.15]
+        },
+        {
+          "text": "We rely on a single supplier for most components and materials, including several of our critical components or materials.",
+          "weights": [0.25, 0.15, 0.25, 0.5, 0.15, 0, 0.15, 0.15, 0.15]
+        },
+        {
+          "text": "We have not assessed our set of back-up suppliers.",
+          "weights": [0.5, 0.25, 0.5, 1, 0.25, 0, 0.25, 0.25, 0.25]
+        }
+      ]
+    },
+    {
+      "text": "How do you ensure compliance with relevant supply chain regulations and standards?",
+      "answers": [
+        {
+          "text": "We have a dedicated compliance team and regular audits.",
+          "weights": [0, -1.25, 0, 0, 0, -1.5, 0, 0, -0.25]
+        },
+        {
+          "text": "We rely on external consultants for compliance.",
+          "weights": [0, -0.75, 0, 0, 0, -1, 0, 0, -0.15]
+        },
+        {
+          "text": "We address compliance issues as they arise.",
+          "weights": [0, 0.75, 0, 0, 0, 1, 0, 0, 0.15]
+        },
+        {
+          "text": "We are not aware of specific compliance requirements.",
+          "weights": [0, 1.25, 0, 0, 0, 1.5, 0, 0, 0.25]
+        }
+      ]
+    },
+    {
+      "text": "How does your company manage or mitigate price fluctuations?",
+      "answers": [
+        {
+          "text": "We use strategic purchasing methods such as long-term contracts to manage price fluctuations.",
+          "weights": [0, -0.25, -0.25, 0, -0.5, 0, -0.25, -0.75, 0]
+        },
+        {
+          "text": "We monitor market prices and adjust our purchasing strategies accordingly.",
+          "weights": [0, -0.15, -0.15, 0, -0.25, 0, -0.15, -0.5, 0]
+        },
+        {
+          "text": "We react to price changes as they occur without specific strategies.",
+          "weights": [0, 0.15, 0.15, 0, 0.25, 0, 0.15, 0.5, 0]
+        },
+        {
+          "text": "We do not manage or mitigate price fluctuations.",
+          "weights": [0, 0.25, 0.25, 0, 0.5, 0, 0.25, 0.75, 0]
+        }
+      ]
+    },
+    {
+      "text": "How prepared is your organization to respond to a major supply chain disruption?",
+      "answers": [
+        {
+          "text": "We have a detailed crisis response plan and conduct regular drills to respond to supply disruptions.",
+          "weights": [0, 0, 0, 0, -1, 0, -0.75, -0.25, 0]
+        },
+        {
+          "text": "We have a basic plan but have not tested it.",
+          "weights": [0, 0, 0, 0, -0.5, 0, -0.5, -0.15, 0]
+        },
+        {
+          "text": "We rely on ad-hoc responses to supply disruptions.",
+          "weights": [0, 0, 0, 0, 0.5, 0, 0.5, 0.15, 0]
+        },
+        {
+          "text": "We do not have a crisis response plan.",
+          "weights": [0, 0, 0, 0, 1, 0, 0.75, 0.25, 0]
+        }
+      ]
+    },
+    {
+      "text": "How do you evaluate the performance and reliability of your suppliers?",
+      "answers": [
+        {
+          "text": "We use a formal evaluation process with metrics and KPIs.",
+          "weights": [-0.75, -0.25, -0.5, -0.75, 0, 0, 0, -0.25, 0]
+        },
+        {
+          "text": "We conduct informal evaluations based on experience.",
+          "weights": [-0.5, -0.15, -0.25, -0.5, 0, 0, 0, -0.15, 0]
+        },
+        {
+          "text": "We rely on feedback from other departments.",
+          "weights": [0.5, 0.15, 0.25, 0.5, 0, 0, 0, 0.15, 0]
+        },
+        {
+          "text": "We do not evaluate supplier performance.",
+          "weights": [0.75, 0.25, 0.5, 0.75, 0, 0, 0, 0.25, 0]
+        }
+      ]
+    },
+    {
+      "text": "What strategies does your company employ to improve manufacturing processes?",
+      "answers": [
+        {
+          "text": "We actively seek to review and implement cutting edge manufacturing technology throughout our operations.",
+          "weights": [0, 0, -0.5, 0, 0, -0.5, -0.75, -1.5, -0.25]
+        },
+        {
+          "text": "We periodically review new processes and implement them as part of our regular operational improvements.",
+          "weights": [0, 0, -0.25, 0, 0, -0.25, -0.5, -0.75, -0.15]
+        },
+        {
+          "text": "We consider new manufacturing technologies as they arise, implementing them when there is a clear and immediate benefit.",
+          "weights": [0, 0, 0.25, 0, 0, 0.25, 0.5, 0.75, 0.15]
+        },
+        {
+          "text": "We do not actively evaluate or implement new manufacturing technologies or processes.",
+          "weights": [0, 0, 0.5, 0, 0, 0.5, 0.75, 1.5, 0.25]
+        }
+      ]
+    },
+    {
+      "text": "How are you currently developing your workforce in the area of supply chain management?",
+      "answers": [
+        {
+          "text": "We have achieved a high level of maturity in supply chain management training, with cross-functional teams actively engaged in optimizing supply chain processes and leveraging data-driven insights, supported by ongoing collaboration with Engine resources, external experts and training providers.",
+          "weights": [-0.5, -0.25, -0.5, -0.5, 0, -0.25, -0.75, -0.75, 0]
+        },
+        {
+          "text": "Our team is fully trained in advanced supply chain management techniques, and we have established a continuous improvement process that includes partnerships with external training organizations to keep our skills and knowledge up-to-date.",
+          "weights": [-0.25, -0.15, -0.25, -0.25, 0, -0.15, -0.5, -0.5, 0]
+        },
+        {
+          "text": "We have a structured training program in place, with regular updates and assessments to ensure our team is equipped with the latest supply chain management practices, and we sometimes incorporate external training courses or certifications.",
+          "weights": [0.25, 0.15, 0.25, 0.25, 0, 0.15, 0.5, 0.5, 0]
+        },
+        {
+          "text": "We provide occasional training sessions on supply chain management, but they are not yet integrated into our regular operations, and we have not yet explored external training options.",
+          "weights": [0.5, 0.25, 0.5, 0.5, 0, 0.25, 0.75, 0.75, 0]
+        }
+      ]
+    },
+  ]
+};
+})();
